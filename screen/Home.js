@@ -50,7 +50,6 @@ const App = () => {
         );
         setFiatData(response.data);
         setLoading(false);
-        console.log("Loading  é false");
       } catch (error) {
         console.error("Erro ao buscar dados das moedas fiduciárias:", error);
       }
